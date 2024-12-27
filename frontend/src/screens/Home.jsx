@@ -88,7 +88,7 @@ const Home = () => {
       </motion.div>
       <br />
       <br />
-      <span>{JSON.stringify(user)}</span>
+      <span>{JSON.stringify(user.email)}</span>
       {project.map((project) => (
         <div
           key={project._id}
